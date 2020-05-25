@@ -3,5 +3,5 @@ GoFo is an  resevation application that allow to user to add it's playground and
 you need to download 
 java.mail jar https://javaee.github.io/javamail/
 and activetion jar http://www.java2s.com/Code/Jar/a/Downloadactivationjar.htm
-
+branch doc for html pages
 
