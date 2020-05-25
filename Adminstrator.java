@@ -29,6 +29,7 @@ public class Adminstrator extends User
                 if (!pgoRequest.get(i).plygrounds.get(j).isActive())
                 {
                     System.out.println(pgoRequest.get(i).plygrounds.get(j));
+                    pgoRequest.get(i).plygrounds.get(j).getAvaliablity();
                     System.out.println("1)Approve");
                     System.out.println("2)Reject");
                     System.out.println(">>");
