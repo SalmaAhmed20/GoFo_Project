@@ -115,7 +115,6 @@ public class Player extends User
    public void booking(ArrayList<PlaygroundOwner> po) throws Exception
    {
        char choice;
-       String mail;
        char choice2;
        Scanner scanner = new Scanner(System.in);
        PlayGround pg = Search(po);
@@ -151,9 +150,8 @@ public class Player extends User
            }
            for (int i = 0; i < Team.size(); i++)
            {
-               mail = Team.get(i).getEmail();
-               System.out.println(mail);
-               this.SendEmail(mail, 1, pg);
+               System.out.println(Team.get(i).getEmail());
+               this.SendEmail(Team.get(i).getEmail(), 1, pg);
            }
        }
        return;
